@@ -1,0 +1,21 @@
+.p-inputotp-input {
+    width: 48px !important;
+    height: 56px;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 16px;
+    color: #0d141c;
+  }
+
+.p-progressbar {
+     position: fixed;
+     height: 8px;
+     max-width: 480px;
+     border-radius: 8px;
+     width: 100%;
+     display: flex;
+    
+     .p-progressbar-value {
+      background-color: #1c91f2;
+     }
+}

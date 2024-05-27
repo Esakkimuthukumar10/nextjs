@@ -1,0 +1,12 @@
+
+.steps {
+    @apply list-none flex flex-col gap-3 p-1 border-[1px] border-solid border-[#cfdee8] pl-0 ml-10 border-y-0 border-r-0;
+}
+
+.list {
+   @apply pl-[11px] ml-[-1px] text-sm cursor-pointer;
+}
+
+.active_list {
+    @apply border-l-[1px] border-solid border-[#4a789c] border-y-0 border-r-0 font-semibold text-[#0d141c];
+}

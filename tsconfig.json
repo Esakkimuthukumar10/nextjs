@@ -13,7 +13,9 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@padra/*": ["./src/*"]
+      "@padra/*": ["./src/*"],
+      "@component/*": ["./src/components/*"],
+      "utils/*": ["./src/utils/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

@@ -1,0 +1,16 @@
+.header {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 40px;
+    padding: 12px 40px;
+    border: solid 1px #e5e8eb;
+}
+
+.logout {
+    @apply rounded-xl text-xs font-bold bg-[#1c91f2] max-w-[84px] max-h-10;
+}
+

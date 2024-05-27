@@ -1,0 +1,8 @@
+
+.container {
+    @apply flex flex-row gap-16 
+}
+
+.step_container {
+    @apply p-4 w-[512px] relative
+}

@@ -1,0 +1,79 @@
+.login_container {
+  display: flex;
+  flex-direction: column;
+  max-width: 512px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.welcome {
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.8px;
+  font-weight: bold;
+  color: #0d141c;
+  max-height: 40px;
+  max-width: 339.2px;
+}
+
+.otp_msg {
+  color: #0d141c;
+  line-height: 24px;
+  padding: 4px 20px 12px;
+  font-size: 16px;
+}
+
+.request_otp {
+  width: 100%;
+  margin-top: 60px;
+  padding: 12px 16px;
+  max-height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #1c91f2;
+  border-radius: 5px;
+}
+
+.otp_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px 16px;
+}
+
+.otp_btn_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  color: #1c91f2;
+  font-weight: 600;
+  font-size: 14px;
+  width: 100%;
+  line-height: 1.5;
+  letter-spacing: 0.21px;
+  margin-right: 16px;
+}
+
+.resend_btn {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.next_btn {
+  width: 84px;
+  padding: 0 16px;
+  height: 40px;
+  border-radius: 12px;
+  background-color: #1c91f2;
+}
+
+.err_msg {
+  line-height: 24px;
+  color: #ff4747;
+  margin-top: 8px;
+  margin-bottom: 0
+}

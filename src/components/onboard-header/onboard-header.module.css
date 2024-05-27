@@ -1,0 +1,16 @@
+
+.container {
+    @apply w-full flex flex-col gap-4 top-4
+}
+
+.progress_bar {
+    @apply h-2 max-w-[480px] absolute top-12;
+}
+
+.step {
+    @apply text-base font-medium text-left text-[#0d141c] m-0;
+}
+
+.current_step_name {
+   @apply text-[#4a789c] text-sm text-left mt-3 max-w-[106px] max-h-[21px]
+}
